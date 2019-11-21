@@ -1,53 +1,6 @@
 {
   "boards": [
-    {
-      "data": [
-        {
-          "hour": 1,
-          "detail": [
-            {
-              "name": "Bitfinex",
-              "in": 10,
-              "out": 20
-            },{
-              "name": "ok coin",
-              "in": 15,
-              "out": 20
-            }
-          ]
-        },
-        {
-          "hour": 10,
-          "detail": [
-            {
-              "name": "Bitfinex",
-              "in": 2,
-              "out": 5
-            },{
-              "name": "ok coin",
-              "in": 15,
-              "out": 20
-            }
-          ]
-        },
-        {
-          "hour": 20,
-          "detail": [
-            {
-              "name": "Bitfinex",
-              "in": 3,
-              "out": 20
-            },{
-              "name": "ok coin",
-              "in": 15,
-              "out": 20
-            }
-          ]
-        }
-      ],
-      "title": "xxx",
-      "type": "transfer"
-    },
+
     {
       "data": [
         {
@@ -101,6 +54,57 @@
       ],
       "title": "鞎旐樃頇旐彁 霌彪澖(24H)",
       "type": "chg"
+    },
+     {
+      "data": [
+        {
+          "hour": 1,
+          "detail": [
+            {
+              "name": "Bitfinex",
+              "in": 10,
+              "out": 20
+            },
+            {
+              "name": "ok coin",
+              "in": 15,
+              "out": 20
+            }
+          ]
+        },
+        {
+          "hour": 10,
+          "detail": [
+            {
+              "name": "Bitfinex",
+              "in": 2,
+              "out": 5
+            },
+            {
+              "name": "ok coin",
+              "in": 15,
+              "out": 20
+            }
+          ]
+        },
+        {
+          "hour": 20,
+          "detail": [
+            {
+              "name": "Bitfinex",
+              "in": 3,
+              "out": 20
+            },
+            {
+              "name": "ok coin",
+              "in": 15,
+              "out": 20
+            }
+          ]
+        }
+      ],
+      "title": "xxx",
+      "type": "transfer"
     },
     {
       "data": {
