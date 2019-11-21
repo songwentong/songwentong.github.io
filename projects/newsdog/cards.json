@@ -21,8 +21,8 @@
           "detail": [
             {
               "name": "Bitfinex",
-              "in": 10,
-              "out": 20
+              "in": 2,
+              "out": 5
             },{
               "name": "ok coin",
               "in": 15,
@@ -35,7 +35,7 @@
           "detail": [
             {
               "name": "Bitfinex",
-              "in": 10,
+              "in": 3,
               "out": 20
             },{
               "name": "ok coin",
