@@ -1,18 +1,373 @@
-{"boards":[
- {
-  "data": [
+{
+  "boards": [
     {
-      "hour": 1,
-      "detail": [
+      "data": [
         {
-          "name": "Bitfinex",
-          "in": 10,
-          "out": 20
+          "hour": 1,
+          "detail": [
+            {
+              "name": "Bitfinex",
+              "in": 10,
+              "out": 20
+            }
+          ]
         }
-      ]
+      ],
+      "title": "xxx",
+      "type": "transfer"
+    },
+    {
+      "data": [
+        {
+          "label": "10%",
+          "value": 38
+        },
+        {
+          "label": "8%",
+          "value": 16
+        },
+        {
+          "label": "6%",
+          "value": 27
+        },
+        {
+          "label": "4%",
+          "value": 59
+        },
+        {
+          "label": "2%",
+          "value": 61
+        },
+        {
+          "label": "0%",
+          "value": 181
+        },
+        {
+          "label": "-2%",
+          "value": 37
+        },
+        {
+          "label": "-4%",
+          "value": 24
+        },
+        {
+          "label": "-6%",
+          "value": 19
+        },
+        {
+          "label": "-8%",
+          "value": 14
+        },
+        {
+          "label": "-10%",
+          "value": 7
+        },
+        {
+          "label": "-99%",
+          "value": 17
+        }
+      ],
+      "title": "鞎旐樃頇旐彁 霌彪澖(24H)",
+      "type": "chg"
+    },
+    {
+      "data": {
+        "amount": 2949576,
+        "index": 10478.06,
+        "index_pct": -0.663629141282852,
+        "liquidation_24_hour": 236498434.34000003,
+        "liquidation_no_deal_24_hour": 0,
+        "premium_rate": 2.9335399720338344,
+        "price": 10179.442,
+        "source": "OKEX",
+        "volume_24_hour": 6118751
+      },
+      "title": "BTC 攵勱赴 靹犽瓿勳暯",
+      "type": "futures"
+    },
+    {
+      "data": {
+        "last_month": 31,
+        "last_week": 43,
+        "today": 39,
+        "yesterday": 38
+      },
+      "title": "瓿淀彫鞕� 韮愳殨 歆�靾�",
+      "type": "fear"
+    },
+    {
+      "data": [
+        {
+          "detail": [
+            {
+              "long": 5471433,
+              "short": 21839066,
+              "title": "雱ろ姼鞗岉伂 雿办澊韯�"
+            },
+            {
+              "long": 3608795,
+              "short": 16142993,
+              "title": "OKEX"
+            },
+            {
+              "long": 1862638,
+              "short": 5696073,
+              "title": "Huobi"
+            }
+          ],
+          "label": 1568476800
+        },
+        {
+          "detail": [
+            {
+              "long": 4364462,
+              "short": 8206484,
+              "title": "雱ろ姼鞗岉伂 雿办澊韯�"
+            },
+            {
+              "long": 2821770,
+              "short": 4944258,
+              "title": "OKEX"
+            },
+            {
+              "long": 1542692,
+              "short": 3262226,
+              "title": "Huobi"
+            }
+          ],
+          "label": 1568491200
+        },
+        {
+          "detail": [
+            {
+              "long": 4256620,
+              "short": 7932361,
+              "title": "雱ろ姼鞗岉伂 雿办澊韯�"
+            },
+            {
+              "long": 2612335,
+              "short": 4588612,
+              "title": "OKEX"
+            },
+            {
+              "long": 1644285,
+              "short": 3343749,
+              "title": "Huobi"
+            }
+          ],
+          "label": 1568505600
+        },
+        {
+          "detail": [
+            {
+              "long": 7564707,
+              "short": 26323390,
+              "title": "ALL"
+            },
+            {
+              "long": 4204628,
+              "short": 22178762,
+              "title": "OKEX"
+            },
+            {
+              "long": 3360079,
+              "short": 4144628,
+              "title": "Huobi"
+            }
+          ],
+          "label": 1568808000
+        },
+        {
+          "detail": [
+            {
+              "long": 9864038,
+              "short": 28560985,
+              "title": "ALL"
+            },
+            {
+              "long": 5489897,
+              "short": 22038822,
+              "title": "OKEX"
+            },
+            {
+              "long": 4374141,
+              "short": 6522163,
+              "title": "Huobi"
+            }
+          ],
+          "label": 1568822400
+        }
+      ],
+      "title": "BTC 瓿茧Г靾�-瓿惦Г霃� 於旍劯",
+      "type": "trend"
+    },
+    {
+      "data": [
+        {
+          "_id": "5d6c95d18b8b33b0b9176c50",
+          "change_pct_24_hour": 99.0049751243781,
+          "coin_icon": "http://img1.newsdog.today/image/2019-07-20/image_5d329b9b2ab9fc00016125c8",
+          "coin_name": "Lykke",
+          "create_at": "2019-09-18T17:52:20.03Z",
+          "market_cap": 10285520,
+          "price": 0.008,
+          "symbol": "LKK",
+          "total_coins_mined": 1285690000,
+          "volume_24_hour_to": 1.5
+        },
+        {
+          "_id": "5d6c95d08b8b33b0b917649b",
+          "change_pct_24_hour": 41.08651911468813,
+          "coin_icon": "http://img1.newsdog.today/image/2019-07-20/image_5d329fc72ab9fc0001612fba",
+          "coin_name": "Alibabacoin",
+          "create_at": "2019-09-18T17:52:22.954Z",
+          "market_cap": 150129382.06035703,
+          "price": 0.149804368,
+          "symbol": "ABBC",
+          "total_coins_mined": 1002169590.0106,
+          "volume_24_hour_to": 5098451.246564599
+        },
+        {
+          "_id": "5d6c95d08b8b33b0b9175e75",
+          "change_pct_24_hour": 40.00000000000002,
+          "coin_icon": "http://img1.newsdog.today/image/2019-07-20/image_5d32929d2ab9fc000161136c",
+          "coin_name": "BitTorrent",
+          "create_at": "2019-09-18T17:52:21.961Z",
+          "market_cap": 706533844.005663,
+          "price": 0.0007136787000000001,
+          "symbol": "BTT",
+          "total_coins_mined": 989988693799.693,
+          "volume_24_hour_to": 4347361.311417325
+        },
+        {
+          "_id": "5d6c95d08b8b33b0b9176013",
+          "change_pct_24_hour": 38.06451612903224,
+          "coin_icon": "http://img1.newsdog.today/image/2019-07-20/image_5d3296a7a7a0420001938170",
+          "coin_name": "DxChain Token",
+          "create_at": "2019-09-18T17:52:18.121Z",
+          "market_cap": 45718959.99999999,
+          "price": 0.0004571895999999999,
+          "symbol": "DX",
+          "total_coins_mined": 100000000000,
+          "volume_24_hour_to": 232125.5843419808
+        },
+        {
+          "_id": "5d6c95d18b8b33b0b9176804",
+          "change_pct_24_hour": 33.33333333333338,
+          "coin_icon": "http://img1.newsdog.today/image/2019-07-20/image_5d32913a1c32f500017f9076",
+          "coin_name": "Pundi X",
+          "create_at": "2019-09-18T17:52:18.121Z",
+          "market_cap": 106789898.78246781,
+          "price": 0.000407852,
+          "symbol": "NPXS",
+          "total_coins_mined": 261834927332.63,
+          "volume_24_hour_to": 184948.2102275766
+        }
+      ],
+      "title": "靸侅姽韽� 彀姼",
+      "type": "rise"
+    },
+    {
+      "data": [
+        {
+          "_id": "5d6c95d08b8b33b0b91761d3",
+          "change_pct_24_hour": -37.873357228195935,
+          "coin_icon": "http://img1.newsdog.today/image/2019-07-20/image_5d3294012ee8750001ca713f",
+          "coin_name": "XinFin Coin",
+          "create_at": "2019-09-18T17:52:19.076Z",
+          "market_cap": 16663920,
+          "price": 0.001110928,
+          "symbol": "XDCE",
+          "total_coins_mined": 15000000000,
+          "volume_24_hour_to": 14207.96153213064
+        },
+        {
+          "_id": "5d6c95d18b8b33b0b9176e58",
+          "change_pct_24_hour": -36.84210526315789,
+          "coin_icon": "http://img1.newsdog.today/image/2019-07-20/image_5d329cdd2ab9fc00016128f8",
+          "coin_name": "Snetwork",
+          "create_at": "2019-09-18T17:52:14.26Z",
+          "market_cap": 12818400,
+          "price": 0.0128184,
+          "symbol": "SNET",
+          "total_coins_mined": 1000000000,
+          "volume_24_hour_to": 106.0362915696
+        },
+        {
+          "_id": "5d6c95d28b8b33b0b9177233",
+          "change_pct_24_hour": -23.672230652503792,
+          "coin_icon": "http://img1.newsdog.today/image/2019-07-20/image_5d3297d4a7a0420001938378",
+          "coin_name": "Hubii Network",
+          "create_at": "2019-09-18T17:52:23.982Z",
+          "market_cap": 10252346.789175995,
+          "price": 0.32238276,
+          "symbol": "HBT",
+          "total_coins_mined": 31801783.659821,
+          "volume_24_hour_to": 16230.6195068773
+        },
+        {
+          "_id": "5d6c95d18b8b33b0b917682e",
+          "change_pct_24_hour": -21.81481481481481,
+          "coin_icon": "http://img1.newsdog.today/image/2019-07-20/image_5d329e601c32f500017faaf0",
+          "coin_name": "CYBR",
+          "create_at": "2019-09-18T17:52:19.076Z",
+          "market_cap": 45099404,
+          "price": 0.045099404,
+          "symbol": "CYBR",
+          "total_coins_mined": 1000000000,
+          "volume_24_hour_to": 1898.463028532168
+        },
+        {
+          "_id": "5d6c95d08b8b33b0b9175ea5",
+          "change_pct_24_hour": -17.032640949554896,
+          "coin_icon": "http://img1.newsdog.today/image/2019-07-20/image_5d3298952ab9fc0001611f3d",
+          "coin_name": "Japan Content Token",
+          "create_at": "2019-09-18T17:52:20.03Z",
+          "market_cap": 26880184.8,
+          "price": 0.14933436,
+          "symbol": "JCT",
+          "total_coins_mined": 180000000,
+          "volume_24_hour_to": 9426.880809359998
+        }
+      ],
+      "title": "頃橂澖韽� 彀姼",
+      "type": "fall"
+    },
+    {
+      "data": [
+        {
+          "id": "3132333435",
+          "exchange_name": "CMAGG",
+          "source": "BTC",
+          "target": "USDT",
+          "timestamp": 0,
+          "price": 8888,
+          "open_24_hour": 0,
+          "volume_24_hour": 0,
+          "volume_24_hour_to": 0,
+          "high_24_hour": 0,
+          "low_24_hour": 0,
+          "change_24_hour": 7777,
+          "change_pct_24_hour": 0.87
+        },
+        {
+          "id": "313233343536",
+          "exchange_name": "Bitfinex",
+          "source": "ETH",
+          "target": "BTC",
+          "timestamp": 0,
+          "price": 777,
+          "open_24_hour": 0,
+          "volume_24_hour": 0,
+          "volume_24_hour_to": 555,
+          "high_24_hour": 0,
+          "low_24_hour": 0,
+          "change_24_hour": 555,
+          "change_pct_24_hour": 0.34
+        }
+      ],
+      "title": "鎴戠殑鍏虫敞",
+      "type": "favorite"
     }
-  ],
-  "title": "xxx",
-  "type": "transfer"
-},
- {"data":[{"label":"10%","value":38},{"label":"8%","value":16},{"label":"6%","value":27},{"label":"4%","value":59},{"label":"2%","value":61},{"label":"0%","value":181},{"label":"-2%","value":37},{"label":"-4%","value":24},{"label":"-6%","value":19},{"label":"-8%","value":14},{"label":"-10%","value":7},{"label":"-99%","value":17}],"title":"鞎旐樃頇旐彁 霌彪澖(24H)","type":"chg"},{"data":{"amount":2949576,"index":10478.06,"index_pct":-0.663629141282852,"liquidation_24_hour":236498434.34000003,"liquidation_no_deal_24_hour":0,"premium_rate":2.9335399720338344,"price":10179.442,"source":"OKEX","volume_24_hour":6118751},"title":"BTC 攵勱赴 靹犽瓿勳暯","type":"futures"},{"data":{"last_month":31,"last_week":43,"today":39,"yesterday":38},"title":"瓿淀彫鞕� 韮愳殨 歆�靾�","type":"fear"},{"data":[{"detail":[{"long":5471433,"short":21839066,"title":"雱ろ姼鞗岉伂 雿办澊韯�"},{"long":3608795,"short":16142993,"title":"OKEX"},{"long":1862638,"short":5696073,"title":"Huobi"}],"label":1568476800},{"detail":[{"long":4364462,"short":8206484,"title":"雱ろ姼鞗岉伂 雿办澊韯�"},{"long":2821770,"short":4944258,"title":"OKEX"},{"long":1542692,"short":3262226,"title":"Huobi"}],"label":1568491200},{"detail":[{"long":4256620,"short":7932361,"title":"雱ろ姼鞗岉伂 雿办澊韯�"},{"long":2612335,"short":4588612,"title":"OKEX"},{"long":1644285,"short":3343749,"title":"Huobi"}],"label":1568505600},{"detail":[{"long":7564707,"short":26323390,"title":"ALL"},{"long":4204628,"short":22178762,"title":"OKEX"},{"long":3360079,"short":4144628,"title":"Huobi"}],"label":1568808000},{"detail":[{"long":9864038,"short":28560985,"title":"ALL"},{"long":5489897,"short":22038822,"title":"OKEX"},{"long":4374141,"short":6522163,"title":"Huobi"}],"label":1568822400}],"title":"BTC 瓿茧Г靾�-瓿惦Г霃� 於旍劯","type":"trend"},{"data":[{"_id":"5d6c95d18b8b33b0b9176c50","change_pct_24_hour":99.0049751243781,"coin_icon":"http://img1.newsdog.today/image/2019-07-20/image_5d329b9b2ab9fc00016125c8","coin_name":"Lykke","create_at":"2019-09-18T17:52:20.03Z","market_cap":10285520,"price":0.008,"symbol":"LKK","total_coins_mined":1285690000,"volume_24_hour_to":1.5},{"_id":"5d6c95d08b8b33b0b917649b","change_pct_24_hour":41.08651911468813,"coin_icon":"http://img1.newsdog.today/image/2019-07-20/image_5d329fc72ab9fc0001612fba","coin_name":"Alibabacoin","create_at":"2019-09-18T17:52:22.954Z","market_cap":150129382.06035703,"price":0.149804368,"symbol":"ABBC","total_coins_mined":1002169590.0106,"volume_24_hour_to":5098451.246564599},{"_id":"5d6c95d08b8b33b0b9175e75","change_pct_24_hour":40.00000000000002,"coin_icon":"http://img1.newsdog.today/image/2019-07-20/image_5d32929d2ab9fc000161136c","coin_name":"BitTorrent","create_at":"2019-09-18T17:52:21.961Z","market_cap":706533844.005663,"price":0.0007136787000000001,"symbol":"BTT","total_coins_mined":989988693799.693,"volume_24_hour_to":4347361.311417325},{"_id":"5d6c95d08b8b33b0b9176013","change_pct_24_hour":38.06451612903224,"coin_icon":"http://img1.newsdog.today/image/2019-07-20/image_5d3296a7a7a0420001938170","coin_name":"DxChain Token","create_at":"2019-09-18T17:52:18.121Z","market_cap":45718959.99999999,"price":0.0004571895999999999,"symbol":"DX","total_coins_mined":100000000000,"volume_24_hour_to":232125.5843419808},{"_id":"5d6c95d18b8b33b0b9176804","change_pct_24_hour":33.33333333333338,"coin_icon":"http://img1.newsdog.today/image/2019-07-20/image_5d32913a1c32f500017f9076","coin_name":"Pundi X","create_at":"2019-09-18T17:52:18.121Z","market_cap":106789898.78246781,"price":0.000407852,"symbol":"NPXS","total_coins_mined":261834927332.63,"volume_24_hour_to":184948.2102275766}],"title":"靸侅姽韽� 彀姼","type":"rise"},{"data":[{"_id":"5d6c95d08b8b33b0b91761d3","change_pct_24_hour":-37.873357228195935,"coin_icon":"http://img1.newsdog.today/image/2019-07-20/image_5d3294012ee8750001ca713f","coin_name":"XinFin Coin","create_at":"2019-09-18T17:52:19.076Z","market_cap":16663920,"price":0.001110928,"symbol":"XDCE","total_coins_mined":15000000000,"volume_24_hour_to":14207.96153213064},{"_id":"5d6c95d18b8b33b0b9176e58","change_pct_24_hour":-36.84210526315789,"coin_icon":"http://img1.newsdog.today/image/2019-07-20/image_5d329cdd2ab9fc00016128f8","coin_name":"Snetwork","create_at":"2019-09-18T17:52:14.26Z","market_cap":12818400,"price":0.0128184,"symbol":"SNET","total_coins_mined":1000000000,"volume_24_hour_to":106.0362915696},{"_id":"5d6c95d28b8b33b0b9177233","change_pct_24_hour":-23.672230652503792,"coin_icon":"http://img1.newsdog.today/image/2019-07-20/image_5d3297d4a7a0420001938378","coin_name":"Hubii Network","create_at":"2019-09-18T17:52:23.982Z","market_cap":10252346.789175995,"price":0.32238276,"symbol":"HBT","total_coins_mined":31801783.659821,"volume_24_hour_to":16230.6195068773},{"_id":"5d6c95d18b8b33b0b917682e","change_pct_24_hour":-21.81481481481481,"coin_icon":"http://img1.newsdog.today/image/2019-07-20/image_5d329e601c32f500017faaf0","coin_name":"CYBR","create_at":"2019-09-18T17:52:19.076Z","market_cap":45099404,"price":0.045099404,"symbol":"CYBR","total_coins_mined":1000000000,"volume_24_hour_to":1898.463028532168},{"_id":"5d6c95d08b8b33b0b9175ea5","change_pct_24_hour":-17.032640949554896,"coin_icon":"http://img1.newsdog.today/image/2019-07-20/image_5d3298952ab9fc0001611f3d","coin_name":"Japan Content Token","create_at":"2019-09-18T17:52:20.03Z","market_cap":26880184.8,"price":0.14933436,"symbol":"JCT","total_coins_mined":180000000,"volume_24_hour_to":9426.880809359998}],"title":"頃橂澖韽� 彀姼","type":"fall"},{"data":[{"id":"3132333435","exchange_name":"CMAGG","source":"BTC","target":"USDT","timestamp":0,"price":8888,"open_24_hour":0,"volume_24_hour":0,"volume_24_hour_to":0,"high_24_hour":0,"low_24_hour":0,"change_24_hour":7777,"change_pct_24_hour":0.87},{"id":"313233343536","exchange_name":"Bitfinex","source":"ETH","target":"BTC","timestamp":0,"price":777,"open_24_hour":0,"volume_24_hour":0,"volume_24_hour_to":555,"high_24_hour":0,"low_24_hour":0,"change_24_hour":555,"change_pct_24_hour":0.34}],"title":"鎴戠殑鍏虫敞","type":"favorite"}]}
+  ]
+}
