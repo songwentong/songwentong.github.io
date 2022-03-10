@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <!-- build:css style/index.css -->
+    <link rel="stylesheet" href="css/commentti.css">
+    <!-- endbuild -->
+    <title>靓评，以“评”为媒，以“评”会友</title>
+    <script type="text/javascript">
+        var ua = navigator.userAgent;
+
+        var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+
+            isIphone = !ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+
+            isAndroid = ua.match(/(Android)\s+([\d.]+)/),
+
+            isMobile = isIphone || isAndroid;
+
+        //判断
+        if (isMobile) {
+            var metaEl = document.querySelector('meta[name="viewport"]');
+            if (!metaEl) {
+                metaEl = document.createElement('meta');
+                metaEl.setAttribute('name', 'viewport');
+                document.head.appendChild(metaEl);
+            }
+            metaEl.setAttribute('content',
+                'width=device-width,user-scalable=yes,initial-scale=0.2,maximum-scale=1,minimum-scale=0.1');
+        }
+    </script>
+    <script type="text/javascript">
+        /* 判断是pc端还是移动端  网上有很多*/
+        var sUserAgent = navigator.userAgent.toLowerCase();
+        var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+        var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+        var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+        var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+        var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+        var bIsAndroid = sUserAgent.match(/android/i) == "android";
+        var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+        var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+        /* 根据不同的客户端引入样以及加载页面 */
+        if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+            window.location.href = "/commentti-h5/index.html";
+        }
+    </script>
+</head>
+
+<body>
+    <div class="main-container">
+        <header class="header">
+            <div class="logo-container">
+                <img src="images/logo.png" alt="" class="logo">
+            </div>
+            <ul class="nav">
+                <li class="index-page focus">首页</li>
+                <li class="about-page">
+                    <a href="#aboutUs">关于我们</a>
+                </li>
+                <li class="down-page">
+                    <a href="#downPage">下载</a>
+                </li>
+            </ul>
+        </header>
+        <div class="first">
+            <div class="first-container">
+                <div class="left-container">
+                    <img src="images/1.png" alt="" class="gif-img">
+                </div>
+                <div class="right-container">
+                    <div class="desc">
+                        <span style="font-size:60px;">靓评--</span>
+                        以“评”为媒，以“评”会友
+                    </div>
+                    <div class="desc">
+                    靓评是一种以评论为中心，涵盖媒体工具，媒体评论，内容共享，网络社交等功能的综合性APP。通过广大网友的评论以及评分，筛选出基于用户态度的优质内容和网络新观点，是全民大讨论，意见集中，智慧叠加的最佳平台。
+                    </div>
+
+                    <div class="qr-download-container">
+                        
+                        <div class="download">
+                            <a class="iphone app-download"  href="https://apps.apple.com/cn/app/id1413146228?l=zh&ls=1">
+                                <img src="images/ios.png" alt="iphone 应用下载" class="iphone-img" data-app="">
+                                <span class="download-type">App Store</span>
+                            </a>
+                            <a class="android app-download"  href="http://app.lianxi.com">
+                                <img src="images/andriod.png" alt="安卓应用下载" class="adroid-img" >
+                                <span class="download-type">Android</span>
+                            </a>
+                        </div>
+                        <div class="qr">
+                            <img src="images/qr.png" alt="" class="qr-img">
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    
+    <!-- 第二段 -->
+    <div class="second-container">
+        <div class="left">
+        <div class="title">
+            转发内容并评论 
+        </div>
+        <div class="title">
+            赋予相应分值及对应态度标签
+        </div>
+        <div class="desc-content">
+            建立圈子，管理圈内成员（精英、 圈民）可以在圈子中发布图文、音频、视频、提问 圈聊互动，粉丝围观，逐步壮大圈子，圈子的未来由你决定。
+        
+        </div>
+        </div>
+        <div class="right">
+            <img src="images/2.png" class=" phone-img" alt="">
+        </div>
+    </div>
+    <div class="line"></div>
+
+    <!-- 第三段 -->
+    <div class="third-container">
+        <div class="left">
+            <img src="images/3.png" class=" phone-img" alt="">
+        </div>
+        <div class="right">
+            <div class="title">
+                聚合收藏
+            </div>
+            <div class="desc-content">
+                可将散落在互联网各个媒体平台的内容聚合到靓评统一“收纳”，同时还可以方便收藏各种内容的评论态度，方便随时阅读。
+            </div>
+        </div>
+    </div>
+    <div class="line"></div>
+
+    <!-- 第四段 -->
+    <div class="fourth-container">
+        <div class="left">
+            <div class="title">
+                有态度的评论
+            </div>
+            <div class="desc-content">
+                可针对评论以及表态即“抬/杠”，发表自己的态度以及观点，从而助力文章的价值。
+    
+            </div>
+        </div>
+        <div class="right">
+            <img src="images/4.png" class=" phone-img" alt="">
+        </div>
+    </div>
+    <div class="line"></div>
+    <!-- 第五段 -->
+    <div class="fifth-container">
+        <div class="left">
+            <img src="images/5.png" class=" phone-img" alt="">
+        </div>
+        <div class="right">
+            <div class="title">
+                “表态”式传播
+            </div>
+            <div class="desc-content">
+                “关注人”可通过对内容的表态实现该内容的传播，粉丝可通过“关系”进行阅读
+            </div>
+        </div>
+    </div>
+    <div class="line"></div>
+
+    <!-- 第六段 -->
+    <div class="sixth-container" id="aboutUs">
+        <div class="title">
+            关于我们
+        </div>
+        <p class="indent2 about-me-desc" style="margin-top: 55px;">
+        靓评是一种以评论为中心，涵盖媒体工具，媒体评论，内容共享，网络社交等功能的综合性APP。通过广大网友的评论以及评分，筛选出基于用户态度的优质内容和网络新观点，是全民大讨论，意见集中，智慧叠加的最佳平台。 
+        </p>
+
+        <div class="indent2 about-me-desc" style="margin-top:90px">
+        靓评的核心特点：
+        </div>
+
+        <div class="indent2 about-me-desc">
+        「推荐阅读」可以清晰了解针对某篇文章来自多方用户的态度以及评论。杜绝了盲目阅读，盲目跟随。 
+        </div>
+
+        <div class="indent2 about-me-desc">
+        「有态度的评论」可针对评论以及表态即“抬/杠”，发表自己的态度以及观点，从而助力文章的价值。
+        </div>
+
+        <div class="indent2 about-me-desc">
+        「传播」“表态”式传播，“关注人”可通过对内容的表态实现该内容的传播，粉丝可通过“关系”进行阅读。
+        </div>
+        <div class="indent2 about-me-desc">
+        「聚合阅读」可将散落在互联网各个媒体平台的内容，评论聚合到靓评统一“收纳”，方便随时阅读。
+        </div>
+    </div>
+
+    <div class="footer" id="downPage">
+        <div class="download-container">
+            <a class="phone-btn"  href="https://apps.apple.com/cn/app/id1413146228?l=zh&ls=1">
+                <img src="images/ios.png" alt="iphone 应用下载" class="phone-img">
+                <span class="download-type">App Store</span>
+            </a>
+            <a class="phone-btn" style="margin-left: 40px;" href="http://app.lianxi.com">
+                                <img src="images/andriod.png" alt="安卓应用下载" class="phone-img" >
+                                <span class="download-type">Android</span></a>
+            <div class="qr-btn">
+                <img src="images/qr.png" alt="" class="qr-img">
+            </div>
+        </div>
+        <p class="xieyi">
+            如果您在靓评发现违法违规内容，请您向我们举报！举报邮箱：houyan@staff.tixa.com <a href="agreement.html">用户协议</a> <a href="privacy.html">隐私协议</a>
+        </p>
+        <p class="icp">
+            北京联系网科技有限公司版权所有@2017保留所有权 
+            <a href="#" target="_blank">京ICP备13049398号-1</a>
+        </p>
+    </div>
+    <div class="lift" id="lift">
+        <div class="one active" data-off="0" id="0"></div>
+        <div class="two" data-off="840" id="1"></div>
+        <div class="three" data-off="1774" id="2"></div>
+        <div class="four" data-off="2643" id="3"></div>
+        <div class="five" data-off="3511" id="4"></div>
+        <div class="six" data-off="4435" id="5"></div>
+
+    </div>
+</body>
+<script>
+    (function () {
+
+        var styleTest = document.createElement('div').style
+
+        var render = {
+            webkit: 'webkitTransform',
+            ms: 'msTransform',
+            Moz: 'MozTransform',
+            O: 'OTransform',
+            standard: 'transform'
+        }
+
+        function getPrefix (){
+           for (var key in render) {
+                if (styleTest[render[key]] !== undefined) {
+                    return key
+                }
+            }
+        }
+        function stylePrefix(style) {
+            if (getPrefix === 'standard') {
+                return style
+            }
+            return getPrefix() + style.charAt(0).toUpperCase() + style.substr(1)
+        }
+   
+        var requestFrame = (function () {
+            var thisFunc,
+                prefixList = ["webkit", "moz", "ms"];
+
+            if ("requestAnimationFrame" in window) {
+                return function (callback) {
+                    window.requestAnimationFrame(callback);
+                };
+            }
+
+            for (let i = 0, len = prefixList.length; i < len; i++) {
+                thisFunc = prefixList[i] + "RequestAnimationFrame";
+                if (window[thisFunc]) {
+                    return function (callback) {
+                        thisFunc(callback);
+                    }
+                }
+            }
+            return function (callback) {
+                window.setTimeout(callback, 67);
+            }
+
+        })();
+
+        window.addEventListener("DOMContentLoaded", function () {
+            var 
+                lift = document.getElementById('lift'),
+                liftList = document.getElementById('lift'),
+                timer = null;
+            function removeClass(nodeList, style) {
+                var i = 0,
+                    len = (nodeList && nodeList.length) || 0,
+                    className = null,
+                    reg = new RegExp(style, "g");
+                for (; i < len; i++) {
+                    var node = nodeList[i];
+                    if (+node.nodeType === 1) {
+                        className = node.getAttribute('class');
+                        if (reg.test(className)) {
+                            node.setAttribute("class", className.replace(reg, ""));
+                        }
+                    }
+                }
+            }
+
+            // 到达指定位置
+            function toSpecialLift(off){
+                var t = stylePrefix('transform');
+                var tr = stylePrefix('transition');
+                document.body.style[tr] = 'all 1s ease-out';
+                //document.body.style[t] = 'translateY('+ -off+'px)';
+                window.scrollTo({
+                    top: off,
+                    behavior: "smooth"
+                });
+                
+            }
+
+            //循环注册事件
+            function handleLift() {
+                var childNodes = liftList.childNodes,
+                    i = 0;
+                len = childNodes.length;
+                for (; i < len; i++) {
+                    var node = childNodes[i];
+                    if (node.nodeType === 1 && node.nodeName.toLowerCase() === "div") {
+                        node.onclick = function () {
+                            //移除焦点
+                            removeClass(childNodes, "active");
+                            var off = this.getAttribute('data-off'),
+                                className = this.getAttribute('class');
+                            className = className + " active";
+                            this.setAttribute("class", className);
+                            toSpecialLift(off);
+                        }
+                    }
+                }
+
+            }
+
+            function handleScroll(e){
+                var t = document.documentElement.scrollTop || document.body.scrollTop;
+                var childNodes = liftList.childNodes;
+                //判断偏移量所在区间，点亮对应的电梯按钮
+                
+                var currentIndex = 0
+                console.log(t);
+                if( t < 840 ) {
+                    currentIndex = 0;
+                } else if( t < 1774 ) {
+                    currentIndex = 1;
+                } else if( t < 2643 ) {
+                    currentIndex = 2;
+                } else if( t < 3511 ) {
+                    currentIndex = 3;
+                } else if( t < 4435 ){
+                    currentIndex = 4;
+                } else if ( t < 5000 ) {
+                    currentIndex = 5;
+                }
+                // 点亮电梯按钮
+                removeClass(childNodes, "active");
+                var node = document.getElementById(currentIndex);
+                var className = node.className;
+                node.className = className + ' active';
+            }
+
+            //节流器
+            var throttle = {
+                timeId: null,
+                process: function () {
+                    window.clearTimeout(this.timeId);
+                    this.timeId = setTimeout(function () {
+                        handleScroll();
+                    }, 30);
+                }
+            }
+
+            window.onscroll = throttle.process;
+            handleLift();
+            //window.onscroll = handleScroll;
+
+        }, false);
+    }())
+</script>
+</html>
